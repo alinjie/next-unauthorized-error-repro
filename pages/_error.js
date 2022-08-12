@@ -5,7 +5,7 @@ function ErrorPage({ statusCode }) {
     return <div>You are not authorized</div>
   }
 
-  return <div>UAJUISDJIOASJDIOASJDIOJSIODJAS</div>
+  return <div>Internal Server Error</div>
 }
 
 ErrorPage.getInitialProps = async ({ err, res }) => {
